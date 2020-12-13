@@ -41,9 +41,7 @@ def hitung_FPB(x, y):
             fpb = i
             
     return fpb
-num1 = 96
-num2 = 24
-# hilangkan tanda # untuk meminta inputan dari user
-# num1 = int(input("Enter first number: "))
-# num2 = int(input("Enter second number: "))
+num1 = int(input("fpb bilangan pertama: "))
+num2 = int(input("fpb bilangan kedua: "))
+
 print("FPB dari", num1,"dan", num2," =", hitung_FPB(num1, num2))
